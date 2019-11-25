@@ -7,6 +7,7 @@ LABEL "com.github.actions.icon"="arrow-up-circle"
 LABEL "com.github.actions.color"="blue"
 
 RUN	apk add --no-cache \
+    openssh-client \
 	bash \
 	ca-certificates \
 	curl \
