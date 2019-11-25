@@ -7,7 +7,7 @@ if [[ "$DEPLOY_TOKEN" ]]; then
     GITHUB_TOKEN=$DEPLOY_TOKEN
 fi
 
-if [[ -z "$DEPLOY_REPO" ]]; then
+if [[ -z "$DEPLOY_REPO" ]]; then
     echo "You must define DEPLOY_REPO."
     exit 1
 fi
