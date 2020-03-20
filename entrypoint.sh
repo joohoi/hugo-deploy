@@ -28,7 +28,7 @@ bash -c 'ssh-add <(echo "$DEPLOY_SSH_KEY")'
 git config --global user.name "${DEPLOY_USER}"
 git config --global user.email "${DEPLOY_USER}@users.noreply.github.com" 
 
-curl -sSL https://github.com/spf13/hugo/releases/download/v0.67.1/hugo_0.67.1_Linux-64bit.tar.gz -o /var/tmp/hugo.tar.gz && tar -zxf /var/tmp/hugo.tar.gz
+curl -sSL https://github.com/spf13/hugo/releases/download/v0.67.1/hugo_extended_0.67.1_Linux-64bit.tar.gz -o /var/tmp/hugo.tar.gz && tar -zxf /var/tmp/hugo.tar.gz
 
 ./hugo
 
